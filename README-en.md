@@ -1,100 +1,72 @@
-```markdown
-# C-Exercises-Tracker
+# C Language Exercises Tracker
 
-Welcome to the **C-Exercises-Tracker** repository! This repository is dedicated to managing and documenting the C language exercises I encounter throughout my learning journey. Covering a range of topics from basics to advanced, this repository aims to systematically organize exercises and errors, record solution approaches, and facilitate review and practice.
+## Purpose
 
-## Repository Structure
+The purpose of this repository is to document various exercises encountered during the study of C programming, especially those that highlight understanding or usage issues. By recording and solving these exercises, this repository aims to reinforce foundational knowledge of C language. Additionally, it will serve as a resource for creating a future C language guidebook with comprehensive exercise examples.
 
-The folders and files are organized by topic and difficulty level, making it easy to navigate and review:
+## Structure
+
+The repository is organized into different folders based on topics and difficulty levels, making it easier to manage and locate exercises systematically:
 
 ```
 C-Exercises-Tracker/
 ├── README.md
 ├── Basics/
-│   ├── variables.md
-│   ├── control_flow.md
-│   ├── functions.md
+│   ├── variables.md          # Exercises related to variables and data types
+│   ├── control_flow.md       # Exercises on control structures (conditions, loops, etc.)
+│   ├── functions.md          # Exercises on defining and calling functions
 │   └── ...
 ├── Data_Structures/
-│   ├── arrays.md
-│   ├── linked_list.md
-│   ├── stacks_and_queues.md
+│   ├── arrays.md             # Exercises on arrays
+│   ├── linked_list.md        # Exercises on linked lists
+│   ├── stacks_and_queues.md  # Exercises on stacks and queues
 │   └── ...
 ├── Algorithms/
-│   ├── sorting.md
-│   ├── searching.md
-│   ├── recursion.md
+│   ├── sorting.md            # Sorting algorithm exercises
+│   ├── searching.md          # Searching algorithm exercises
+│   ├── recursion.md          # Exercises on recursion
 │   └── ...
 ├── Advanced/
-│   ├── pointers.md
-│   ├── memory_management.md
-│   ├── file_handling.md
+│   ├── pointers.md           # Exercises on pointers
+│   ├── memory_management.md  # Exercises on memory management
+│   ├── file_handling.md      # Exercises on file handling
 │   └── ...
 └── Practice_Problems/
-    ├── easy/
-    │   ├── problem1.md
-    │   ├── problem2.md
-    │   └── ...
-    ├── medium/
-    │   ├── problem1.md
-    │   ├── problem2.md
-    │   └── ...
-    └── hard/
-        ├── problem1.md
-        ├── problem2.md
-        └── ...
+    ├── easy/                 # Basic-level practice problems
+    ├── medium/               # Intermediate-level practice problems
+    └── hard/                 # Advanced-level practice problems
 ```
 
-### Folder Descriptions
+Each file contains detailed exercises, code implementations, and analyses related to its topic. The explanations are thorough, making it a useful reference for self-study or for others who want to learn C.
 
-- **Basics/**: Contains exercises on C language fundamentals, including variables, control flow, and functions.
-- **Data_Structures/**: Contains exercises related to common data structures such as arrays, linked lists, stacks, and queues.
-- **Algorithms/**: Contains exercises on algorithms including sorting, searching, and recursion.
-- **Advanced/**: Contains exercises on advanced C language topics, such as pointers, memory management, and file handling.
-- **Practice_Problems/**: Stores a variety of comprehensive exercises, categorized by difficulty levels (`easy`, `medium`, and `hard`).
+## Tools
 
-## Documentation Format
+- **Programming Environment**: The code in this repository is edited in Visual Studio Code (VS Code).
+- **Markdown Plugin**: It’s recommended to use the **Markdown All in One** plugin in VS Code for easy editing and managing Markdown files.
+- **Code Snippets and Templates**: You can manually copy the optimization and error correction templates provided in this repository for documenting and analyzing exercises.
 
-Each `.md` file includes detailed documentation of related exercises, covering error records, solution code, and problem-solving approaches. Below is a template for documenting an exercise:
+## Update Plan
 
-### Exercise Template
+This repository will be updated continuously following my learning progress. New exercises and detailed explanations will be added as I study new topics or review problematic areas.
 
-```markdown
-# Exercise Title
+## Contribution Guidelines
 
-## Problem Description
-Briefly describe the problem requirements and input/output format.
+Contributions from others interested in C language exercises are welcome! Here’s how you can contribute:
 
-## Error Analysis
-Record encountered error code and analyze the cause.
+1. **Fork this repository**: Click the Fork button on the top right of the page to copy this repository to your GitHub account.
+2. **Create a branch**: In your forked repository, create a new branch (e.g., `add-new-exercise`).
+3. **Add or modify exercises**: Add new exercise notes in the appropriate folder or provide improvements to existing content.
+4. **Submit changes**: Commit your changes to your branch and push them to GitHub.
+5. **Create a Pull Request**: On GitHub, open a Pull Request and describe your changes.
 
-## Correct Solution
-```c
-// Correct C code
-```
+### Contribution Notes
 
-## Solution Approach
-Explain the steps and thought process involved in solving the problem.
+- **Maintain Structure**: Please organize your contributions according to the existing folder structure and naming conventions.
+- **Code Quality**: Ensure that your code is clear, concise, and includes necessary comments.
+- **Detailed Explanations**: Provide comprehensive problem analysis and solution explanations to aid other learners.
 
-## Improvement & Optimization
-If there’s a better solution or code optimization, document it here.
+## Contact
 
-## Review Tag
-- Difficulty: 🌟🌟
-- Review Date: 2024-01-01
-```
+If you have any questions or suggestions, feel free to contact me at:
 
-## Usage Instructions
-
-1. **Add New Exercises**: For each new exercise, add it to the corresponding `.md` file under the appropriate folder, making sure to document the problem, error analysis, correct solution, and approach.
-2. **Record Errors**: When errors are encountered, document the code and reasons for errors for future review.
-3. **Regular Review**: Use the review tags to regularly revisit difficult problems and error-prone areas to strengthen your understanding.
-
-## Contribution Guide
-
-If you have suggestions for improving this repository, feel free to contribute through Issues or Pull Requests!
-
-## License
-
-This repository is for personal study and practice only. Please do not use this content for any commercial purposes.
-```
+- **Email**: [wusq1.2.3@hotmail.com](mailto:wusq1.2.3@hotmail.com)
