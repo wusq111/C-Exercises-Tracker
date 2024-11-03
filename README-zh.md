@@ -1,5 +1,3 @@
-以下是一个适合用于 C 语言习题管理的仓库 `README.md` 示例：
-
 ```markdown
 # C-Exercises-Tracker
 
